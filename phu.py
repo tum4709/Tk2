@@ -212,7 +212,7 @@ helpmsg ="""
 ╠══🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭═══
 ╠Me
 ╠.คท
-╠มิด
+╠ไอดีเรา
 ╠ติ๊กเรา
 ╠อัพชื่อ 「ข้อความที่ต้องการ」
 ╠อัพตัส 「ข้อความที่ต้องการ」
@@ -2155,7 +2155,7 @@ def lineBot(op):
                                 userid = "https://line.me/ti/p/~" + client.profile.userid
                                 client.sendFooter(to, "Update Status\nStatus : Success\nFrom : "+str(pname)+"\nTo :"+str(string), userid, "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName)
 #==============================================================================================================
-                        elif cmd == "มิด":
+                        elif cmd == "ไอดีเรา":
                             userid = "https://line.me/ti/p/" + client.getUserTicket().id
                             client.sendFooter(to, "Mid :\n"+str(sender), userid, "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName)
                         elif cmd == "โปรไฟลเรา":
@@ -2167,7 +2167,7 @@ def lineBot(op):
                             client.sendImageWithFooter(to, image, userid, image, client.getContact(sender).displayName)
                             client.sendImageWithFooter(to, path, userid, path, client.getContact(sender).displayName)
                             client.sendFooter(to, "My Profile\nMid : "+str(sender)+"\nName : "+str(contact.displayName)+"\nStatus :\n"+str(contact.statusMessage), userid, "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName)
-                        elif cmd == "ชิ่อเรา":
+                        elif cmd == "ชื่อเรา":
                             h = client.getContact(clientMID)
                             userid = "https://line.me/ti/p/~" + client.profile.userid
                             client.sendFooter(to, "Name :\n"+str(h.displayName), userid, "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName)
