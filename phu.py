@@ -209,10 +209,10 @@ def command(text):
     return cmd
 #==============================================================================================================
 helpmsg ="""
-╠════🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭═════
+╠══🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭═══
 ╠Me
 ╠.คท
-╠mid
+╠มิด
 ╠ติ๊กเรา
 ╠อัพชื่อ 「ข้อความที่ต้องการ」
 ╠อัพตัส 「ข้อความที่ต้องการ」
@@ -2088,7 +2088,7 @@ def lineBot(op):
                             settings["restartPoint"] = to
                             restartBot()
                         elif cmd == "me" or cmd == "tes":
-                            client.sendMentionFooter(to, '「ผู้ใช้」\n', sender, "https://line.me/ti/p/~gg880.", "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName);client.sendMessage(to, client.getContact(sender).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+client.getContact(sender).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/~gg880.', 'type': 'mt', 'subText': "phuselfbot", 'a-installUrl': 'https://line.me/ti/p/~gg880.', 'a-installUrl': ' https://line.me/ti/p/~gg880.', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/~gg880.', 'i-linkUri': 'https://line.me/ti/p/~gg880.', 'id': 'mt000000000a6b79f9', 'text': 'Khie', 'linkUri': 'https://line.me/ti/p/~gg880'}, contentType=19)
+                            client.sendMentionFooter(to, '「🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭」\n', sender, "https://line.me/ti/p/~gg880.", "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName);client.sendMessage(to, client.getContact(sender).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+client.getContact(sender).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/~gg880.', 'type': 'mt', 'subText': "phuselfbot", 'a-installUrl': 'https://line.me/ti/p/~gg880.', 'a-installUrl': ' https://line.me/ti/p/~gg880.', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/~gg880.', 'i-linkUri': 'https://line.me/ti/p/~gg880.', 'id': 'mt000000000a6b79f9', 'text': 'Khie', 'linkUri': 'https://line.me/ti/p/~gg880'}, contentType=19)
                         elif cmd == "yabi":
                             userid = "https://line.me/ti/p/~" + client.profile.userid
                             client.sendImageWithFooter(to, "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, str(userid), "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName)
@@ -2155,7 +2155,7 @@ def lineBot(op):
                                 userid = "https://line.me/ti/p/~" + client.profile.userid
                                 client.sendFooter(to, "Update Status\nStatus : Success\nFrom : "+str(pname)+"\nTo :"+str(string), userid, "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName)
 #==============================================================================================================
-                        elif cmd == "mid":
+                        elif cmd == "มิด":
                             userid = "https://line.me/ti/p/" + client.getUserTicket().id
                             client.sendFooter(to, "Mid :\n"+str(sender), userid, "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName)
                         elif cmd == "โปรไฟลเรา":
@@ -2689,7 +2689,7 @@ def lineBot(op):
                                 client.acquireGroupCallRoute(to)
                                 client.inviteIntoGroupCall(to, contactIds=members)
                             else:
-                                client.sendMessage(to, "ก็คนทันเหงาอะ".format(str(jml)))
+                                client.sendMessage(to, "📶เชิญโทรเรียบร้อย".format(str(jml)))
                         elif cmd.startswith("ว่า "):
                             sep = text.split(" ")
                             text = text.replace(sep[0] + " ","")
