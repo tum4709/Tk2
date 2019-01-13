@@ -209,7 +209,7 @@ def command(text):
     return cmd
 #==============================================================================================================
 helpmsg ="""
-╠══🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭═══
+╠══🇹🇭⍣TEAMBOTTUM⍣🇹🇭═══
 ╠Me
 ╠.คท
 ╠ไอดีเรา
@@ -332,7 +332,7 @@ helpmsg ="""
 ╠ตั้งติ๊กคนเข้า
 ╠ลบติ๊กคนเข้า
 ╠ตั้งคนเข้า:「ข้อความที่ต้องการ」
-╠══🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭═══ 
+╠══🇹🇭⍣TEAMBOTTUM⍣🇹🇭═══ 
 """
 helpmusic ="""「 Music 」
 
@@ -2088,7 +2088,7 @@ def lineBot(op):
                             settings["restartPoint"] = to
                             restartBot()
                         elif cmd == "me" or cmd == "tes":
-                            client.sendMentionFooter(to, '「🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭」\n', sender, "https://line.me/ti/p/~gg880.", "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName);client.sendMessage(to, client.getContact(sender).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+client.getContact(sender).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/~gg880.', 'type': 'mt', 'subText': "phuselfbot", 'a-installUrl': 'https://line.me/ti/p/~gg880.', 'a-installUrl': ' https://line.me/ti/p/~gg880.', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/~gg880.', 'i-linkUri': 'https://line.me/ti/p/~gg880.', 'id': 'mt000000000a6b79f9', 'text': 'Khie', 'linkUri': 'https://line.me/ti/p/~gg880'}, contentType=19)
+                            client.sendMentionFooter(to, '「🇹🇭⍣TEAMBOTTUM⍣🇹🇭」\n', sender, "https://line.me/ti/p/~gg880.", "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName);client.sendMessage(to, client.getContact(sender).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+client.getContact(sender).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/~gg880.', 'type': 'mt', 'subText': "phuselfbot", 'a-installUrl': 'https://line.me/ti/p/~gg880.', 'a-installUrl': ' https://line.me/ti/p/~gg880.', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/~gg880.', 'i-linkUri': 'https://line.me/ti/p/~gg880.', 'id': 'mt000000000a6b79f9', 'text': 'Khie', 'linkUri': 'https://line.me/ti/p/~gg880'}, contentType=19)
                         elif cmd == "yabi":
                             userid = "https://line.me/ti/p/~" + client.profile.userid
                             client.sendImageWithFooter(to, "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, str(userid), "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName)
@@ -2896,7 +2896,7 @@ def lineBot(op):
                                 client.updateGroup(group)
                         elif cmd == ".คท" or cmd == "mycon":
                             try:
-                    	        sendMention(to, sender, "「 🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭 」\n•", "")
+                    	        sendMention(to, sender, "「 🇹🇭⍣TEAMBOTTUM⍣🇹🇭 」\n•", "")
                     	        client.sendContact(to, sender)
                             except Exception as error:
                                 client.sendMessage(to, "「 Result Error 」\n" + str(error))                              
@@ -5040,7 +5040,7 @@ def lineBot(op):
                         if settings["autoRead"] == True:
                             client.sendChatChecked(to, msg_id)
                 #if msg.text in ["เซลใคร"]:
-                 #   client.sendText(msg.to,"😉😉เชลของ😉😉\n🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭")                
+                 #   client.sendText(msg.to,"😉😉เชลของ😉😉\n🇹🇭⍣TEAMBOTTUM⍣🇹🇭")                
 #==============================================================================================================
 #=====================================================[]=======================================================
 #==============================================================================================================
